@@ -1,0 +1,10 @@
+# Google Sheets辞書を使う場合に限り、基本設定と重ねて使う。
+services:
+  tts-bot:
+    volumes:
+      - type: bind
+        source: ./secrets/service_account.json
+        target: /app/secrets/service_account.json
+        read_only: true
+        bind:
+          create_host_path: false

@@ -1,0 +1,12 @@
+{
+   "python.languageServer": "Pylance",
+   "python.analysis.diagnosticSeverityOverrides": {
+      "reportMissingModuleSource": "none",
+      "reportShadowedImports": "none"
+   },
+   "[python]": {
+      "editor.tabSize": 3,
+      "editor.insertSpaces": true,
+      "editor.detectIndentation": false
+   }
+}

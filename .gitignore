@@ -1,0 +1,20 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+secrets/
+
+# Installed dependencies and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# Runtime data and exports
+data/
+exported-data/
+backup-data/
+*.tar
+*.tar.gz
